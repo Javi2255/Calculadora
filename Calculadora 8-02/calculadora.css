@@ -1,0 +1,79 @@
+#Calculadora{
+    background: center;
+    background-color: gray;
+    border:2px solid red;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    
+}
+#MiCalculo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+   
+   
+}
+#display{
+    height: 45px;
+    width: 420px;
+    
+    background-color: white;
+}
+
+#pantalla{ 
+    border: 1px solid black;
+    width: 420px;
+    height: 45px;
+    margin-left: 56px;
+}
+#botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 50px;
+   
+}
+#numeros{ 
+    
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+}
+
+#numeros button{
+    height: 100px;
+    width: 100px;
+    border:1px solid black;
+    border-radius: 10%;
+    font-size: 250%;
+    box-shadow: 2px 2px 10px #666;
+    box-shadow: 5px -5px 0 2px #444;
+    box-shadow: 5px 5px 25px rgb(153, 153, 153) inset;
+}
+
+#operaciones button{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border:1px solid black;
+    font-size: 250%;
+    box-shadow: 2px 2px 10px #666;
+    box-shadow: 5px -5px 0 2px #444;
+    box-shadow: 5px 5px 25px rgb(153, 153, 153) inset;
+}
+
+#operaciones{
+    display: flex;
+    flex-direction: column;
+   
+    width: 100px;
+}
+#boton0{
+    margin-left: 100px;
+}
